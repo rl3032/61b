@@ -26,6 +26,7 @@ public class Mystery {
   public static void main(String[] args) {
     int[] inputArray = {3, 0, 4, 6, 3};
     int k = 2;
+    mystery2(inputArray);
     System.out.println(mystery(inputArray, k));
   }
 }
